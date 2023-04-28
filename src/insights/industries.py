@@ -9,7 +9,7 @@ def get_unique_industries(path: str) -> List[str]:
         industria = ind["industry"].strip()
         if industria:
             result.add(ind["industry"])
-    
+
     return result
 
 

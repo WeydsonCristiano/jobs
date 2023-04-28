@@ -19,7 +19,7 @@ def get_unique_job_types(path: str) -> List[str]:
     result = set()
     for job in list_jobs:
         result.add(job["job_type"])
-    
+
     return result
 
 
