@@ -7,4 +7,3 @@ def count_ocurrences(path: str, word: str) -> int:
 
 print(count_ocurrences('data/jobs.csv', 'Python'))
 print(count_ocurrences('data/jobs.csv', 'Javascript'))
-
